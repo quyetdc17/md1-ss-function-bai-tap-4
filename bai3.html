@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3 bai tap gai thua</title>
+</head>
+<body>
+<script>
+    let number = +prompt("nhap so giai thua")
+
+    function factorial(n) {
+        if (n === 0) {
+            return 1;
+        }
+        return n * factorial(n - 1);
+
+    }
+
+    console.log(factorial(number));
+</script>
+</body>
+</html>

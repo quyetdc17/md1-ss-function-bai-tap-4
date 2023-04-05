@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = prompt("nhap a");
+    let y = prompt("nhap b");
+    let z = prompt("nhap c");
+
+    function lowestNumber(a, b, c) {
+        let min = a;
+        if (b < min) {
+            return b;
+        }
+        if (c<min){
+            return c;
+        }
+        console.log("so nho nhat la ====>>",min)
+    }
+
+    lowestNumber(x,y,z);
+</script>
+</body>
+</html>
